@@ -16,3 +16,20 @@ cargo run -p server
 cargo run -p client
 
 Now you can chat between multiple terminals!
+
+
+## 🚀 Features
+
+- **Real-time chat using WebSockets**
+- **Multiple concurrent clients**
+- **NEW in v1.1:** Chat room support
+  - Clients can join rooms using `/join <room-name>`
+  - Messages are only visible within the room
+  - Default room: `global`
+
+## 📌 Version History
+
+### v1.1 (May 2025)
+- Added support for chat rooms
+- Clients can switch rooms using `/join <room-name>`
+- Each room maintains its own broadcast channel
